@@ -1,2 +1,2 @@
 # PIMD
-Perform path integral molecular dynamics simulations for systems with available global PES.
+Path Integral Molecular Dynamics for Global PES.
