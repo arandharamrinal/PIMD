@@ -5,12 +5,12 @@ Welcome to the Path Integral Molecular Dynamics (PIMD) Simulation Package GitHub
 
 Features:
 =========
-  1.*Quantum thermodynamics properties:* Includes preconditioned and non-preconditioned PIMD methods for accurate simulation of static (thermodynamics) quantum properties in molecular systems. 
-  2.*Approximate quantum dynamical properties:* Implements Ring Polymer Molecular Dynamics (RPMD) and Thermostatted RPMD for studying quantum dynamical effects in molecular systems.
-  3.*Free Energy Calculations:* Facilitates enhanced sampling simulations using umbrella sampling techniques. Currently supports bonds, angles, dihedrals, and their differences as collective variables. Additional collective variables can be easily added for specialized simulations. It also includes Fortran routines for interfacing with Plumed software for free energy calculation.
-  4.*Parallelization:* Utilizes OpenMP for efficient parallelization, enhancing performance on multi-core systems.
-  5.*Custom PES:* Allows custom potential energy surfaces (PESs), enabling simulations tailored to specific systems or research questions.
-  6.*Available Thermostats:* Currently supports Massive Nose-Hoover chain thermostat (MNHC)(Tuckerman et al.) and path integral Langevin equation (PILE) thermostat (Ceriotti et al.) for PIMD simulations. The Nose-Hoover chain thermostat and the Langevin equation thermostats are available for classical simulations.
+  1.**Quantum thermodynamics properties:** Includes preconditioned and non-preconditioned PIMD methods for accurate simulation of static (thermodynamics) quantum properties in molecular systems. 
+  2.**Approximate quantum dynamical properties:** Implements Ring Polymer Molecular Dynamics (RPMD) and Thermostatted RPMD for studying quantum dynamical effects in molecular systems.
+  3.**Free Energy Calculations:** Facilitates enhanced sampling simulations using umbrella sampling techniques. Currently supports bonds, angles, dihedrals, and their differences as collective variables. Additional collective variables can be easily added for specialized simulations. It also includes Fortran routines for interfacing with Plumed software for free energy calculation.
+  4.**Parallelization:** Utilizes OpenMP for efficient parallelization, enhancing performance on multi-core systems.
+  5.**Custom PES:** Allows custom potential energy surfaces (PESs), enabling simulations tailored to specific systems or research questions.
+  6.**Available Thermostats:** Currently supports Massive Nose-Hoover chain thermostat (MNHC)(Tuckerman et al.) and path integral Langevin equation (PILE) thermostat (Ceriotti et al.) for PIMD simulations. The Nose-Hoover chain thermostat and the Langevin equation thermostats are available for classical simulations.
 
 
 Getting Started
