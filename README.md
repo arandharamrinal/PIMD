@@ -12,6 +12,9 @@ Features:
   5. **Custom PES:** Allows custom potential energy surfaces (PESs), enabling simulations tailored to specific systems or research questions.
   6. **Available Thermostats:** Currently supports Massive Nose-Hoover chain thermostat (MNHC)(Tuckerman et al.) and path integral Langevin equation (PILE) thermostat (Ceriotti et al.) for PIMD simulations. The Nose-Hoover chain thermostat and the Langevin equation thermostats are available for classical simulations.
 
+Prerequisites:
+==============
+It requires Intel MKL libraries. 
 
 Getting Started
 ===============
@@ -21,13 +24,15 @@ To get started with using the PIMD Simulator, follow these steps:
   ---------------------
     git clone https://github.com/arandharamrinal/PIMD.git
 
-  Compile the Code:
+  Compile the Code 
   -----------------
-    cd PIMD
+    #(make necessary changes in the Makefile). This will generate an executable in the bin directory.
+    cd PIMD  
     make
   Run a Simulation:
   -----------------
-    ./pimd_simulation input_file.inp
+    #Copy pimd.exe to the directory you want to run the simulation.
+    ./pimd.exe input_parameter_file
 
 Explore Documentation:
 ======================
