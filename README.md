@@ -16,7 +16,7 @@ To get started with using the PIMD Simulator, follow these steps:
 
 Clone the Repository:
 bash
-git clone https://github.com/your-username/pimd-simulator.git
+git clone https://github.com/arandharamrinal/PIMD.git
 
 Compile the Code:
 bash
