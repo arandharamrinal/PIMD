@@ -26,9 +26,10 @@ To get started with using the PIMD Simulator, follow these steps:
 
   Compile the Code 
   -----------------
-    #(make necessary changes in the Makefile). This will generate an executable in the bin directory.
+    #(make necessary changes in the Makefile).
     cd PIMD  
     make
+    #This will generate an executable in the bin directory.
   Run a Simulation:
   -----------------
     #Copy pimd.exe to the directory you want to run the simulation.
@@ -37,8 +38,10 @@ To get started with using the PIMD Simulator, follow these steps:
 Explore Documentation:
 ======================
 Detailed documentation describing input file format, available options, and usage examples will be available soon. If you have any questions, please feel free to contact me directly.
-Contributing
-We welcome contributions from the community to improve and extend the capabilities of the PIMD Simulator. If you have suggestions or bug reports or would like to contribute code, please feel free to open an issue or submit a pull request.
+
+Contributing:
+============
+We welcome contributions from the community to improve and extend the capabilities of the PIMD Simulator. If you have suggestions or bug reports or would like to contribute code, please open an issue or submit a pull request.
 
 Contact
 =======
