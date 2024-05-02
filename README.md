@@ -10,7 +10,7 @@ Features:
   3. **Free Energy Calculations:** Facilitates enhanced sampling simulations using umbrella sampling techniques. Currently supports bonds, angles, dihedrals, and their differences as collective variables. Additional collective variables can be easily added for specialized simulations. It also includes Fortran routines for interfacing with Plumed [Tribello *et al.*](https://doi.org/10.1016/j.cpc.2013.09.018) software for free energy calculation.
   4. **Parallelization:** Utilizes OpenMP for efficient parallelization, enhancing performance on multi-core systems.
   5. **Custom PES:** Allows custom potential energy surfaces (PESs), enabling simulations tailored to specific systems or research questions.
-  6. **Available Thermostats:** Currently supports Massive Nose-Hoover chain thermostat (MNHC) [Tuckerman *et al.*](http://dx.doi.org/10.1080/00268979600100761)  and path integral Langevin equation (PILE) thermostat [Ceriotti et al.](http://dx.doi.org/10.1063/1.3489925) for PIMD simulations. The Nose-Hoover chain thermostat and the Langevin equation thermostats are available for classical simulations.
+  6. **Available Thermostats:** Currently supports Massive Nose-Hoover chain thermostat (MNHC) [Tuckerman *et al.*](http://dx.doi.org/10.1080/00268979600100761)  and path integral Langevin equation (PILE) thermostat [Ceriotti et al.](http://dx.doi.org/10.1063/1.3489925) for PIMD simulations. The Nose-Hoover chain and the Langevin equation thermostats are available for classical simulations.
 
 Prerequisites:
 ==============
