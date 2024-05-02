@@ -1,4 +1,3 @@
-# PIMD
 Path Integral Molecular Dynamics (PIMD) Simulation Package
 ==========================================================
 Welcome to the Path Integral Molecular Dynamics (PIMD) Simulation Package GitHub repository! This software package offers a comprehensive suite of tools for performing various path integral molecular dynamics simulations, including PIMD (both preconditioned and non-preconditioned), Ring Polymer Molecular Dynamics (RPMD), Thermostatted RPMD, and classical MD simulations. Additionally, it supports umbrella sampling simulations for enhanced sampling of complex systems and contains Fortran routines for use with Plumed software [Tribello *et al.*](https://doi.org/10.1016/j.cpc.2013.09.018)
