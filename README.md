@@ -18,7 +18,7 @@ It requires Intel MKL libraries.
 
 Getting Started
 ===============
-To get started with using the PIMD Simulator, follow these steps:
+To get started with using the PIMD Simulation package, follow these steps:
 
   Clone the Repository:
   ---------------------
