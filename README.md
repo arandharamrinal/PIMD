@@ -10,6 +10,7 @@ Features:
   4. **Parallelization:** Utilizes OpenMP for efficient parallelization, enhancing performance on multi-core systems.
   5. **Custom PES:** Allows custom potential energy surfaces (PESs), enabling simulations tailored to specific systems or research questions.
   6. **Available Thermostats:** Currently supports Massive Nose-Hoover chain thermostat (MNHC) [Tuckerman *et al.*](http://dx.doi.org/10.1080/00268979600100761)  and path integral Langevin equation (PILE) thermostat [Ceriotti et al.](http://dx.doi.org/10.1063/1.3489925) for PIMD simulations. The Nose-Hoover chain and the Langevin equation thermostats are available for classical simulations.
+  7. **Ab-initio PIMD and Classical MD:** Supports ab-initio path integral and classical MD simulations. Currently, it is only implemented for [Gaussian](https://gaussian.com/) software.
 
 Prerequisites:
 ==============
